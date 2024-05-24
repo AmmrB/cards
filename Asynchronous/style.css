@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background-color: #f0f0f0; /* Changed to a light grey */
+  }
+  
+  button {
+    padding: 15px;
+    background-color: #007BFF; /* Changed to a blue color */
+    color: white;
+    border-radius: 50px; /* Increased to make the button more rounded */
+    border: none;
+    display: none;
+    margin: 0 auto;
+    transition: background-color 0.3s ease; /* Added transition for smooth color change */
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  button:active,
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.5); /* Added a blue glow on focus/active */
+  }
+  
+  #card-area {
+    margin-top: 80px;
+  }
+  
+  #card-area > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
